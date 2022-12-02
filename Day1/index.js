@@ -41,7 +41,7 @@ const topThree = () => {
   // return calsArr[0] + calsArr[1] + calsArr[2];
 };
 
-console.log(mostCalories(), topThree());
+// console.log(mostCalories(), topThree());
 
 // day 1 part 2
 
