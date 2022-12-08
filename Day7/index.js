@@ -32,6 +32,8 @@ const partOne = (commands) => {
     }
   }
 
+  // for part two, take the directories object, dirs, filter by values
+  // that will free enough space, sort, and take the smallest one
   const needToDelete = NEED_FREE - (TOTAL_SIZE - dirs["/"]);
   const willDelete = Object.values(dirs)
     .filter((val) => val >= needToDelete)
