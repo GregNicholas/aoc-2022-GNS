@@ -9,7 +9,6 @@ const commands = fs
 const TOTAL_SIZE = 70000000;
 const NEED_FREE = 30000000;
 
-console.log(commands);
 const partOne = (commands) => {
   const dirs = { "/": 0 };
   const dirStack = ["/"];
